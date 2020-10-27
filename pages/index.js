@@ -18,17 +18,26 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="title">Integrations</h1>
+        <h1 className={styles.title}>
+          <a
+            href="https://xkit.co?utm_source=next.js-sample-app&utm_campaign=nextjs_sample_app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/xkit-logo-black.svg" alt="Xkit Logo" className={styles.logo} />
+          </a>
+          integrations
+        </h1>
         {<XkitCatalog xkit={xkit} connectorsPath="/" hideTitle />}
       </main>
 
       <footer className={styles.footer}>
+        Powered by{' '}
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
