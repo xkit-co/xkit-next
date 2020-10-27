@@ -18,7 +18,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {<XkitCatalog xkit={xkit} connectorsPath="/" />}
+        <h1 className="title">Integrations</h1>
+        {<XkitCatalog xkit={xkit} connectorsPath="/" hideTitle />}
       </main>
 
       <footer className={styles.footer}>
