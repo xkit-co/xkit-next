@@ -10,7 +10,7 @@
   "dependencies": {
     "@xkit-co/xkit-catalog.js": "^8.3.1",
     "next": "9.5.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0"
   }
 }
