@@ -1,8 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is an example of how to use the [Xkit](https://xkit.co) embedded catalog in [Next.js](https://nextjs.org). It was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, create a `.env.local` file based on the sample:
+
+```bash
+cp .env.local.sample .env.local
+```
+
+Then, edit `NEXT_PUBLIC_XKIT_DOMAIN` to be your Xkit domain.
+
+Now you can run the development server:
 
 ```bash
 npm run dev
@@ -12,9 +20,9 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
 ## Learn More
+
+To learn more about Xkit, visit the [Xkit docs](https://docs.xkit.co).
 
 To learn more about Next.js, take a look at the following resources:
 
