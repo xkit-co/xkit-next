@@ -1,5 +1,7 @@
 This is an example of how to use the [Xkit](https://xkit.co) embedded catalog in [Next.js](https://nextjs.org). It was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fxkit-co%2Fxkit-next&env=NEXT_PUBLIC_XKIT_DOMAIN&envDescription=Domain%20associated%20with%20your%20Xkit%20project&demo-url=https%3A%2F%2Fxkit-next.vercel.app)
+
 ## Getting Started
 
 First, create a `.env.local` file based on the sample:
