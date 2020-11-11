@@ -2,10 +2,13 @@ This is an example of how to use the [Xkit](https://xkit.co) embedded catalog in
 
 ## How to use
 
-1. [Sign up for Xkit](https://app.xkit.co/sign-up)
-2. [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fxkit-co%2Fxkit-next&env=NEXT_PUBLIC_XKIT_DOMAIN&envDescription=Domain%20associated%20with%20your%20Xkit%20project&demo-url=https%3A%2F%2Fxkit-next.vercel.app)
-3. Add your deployed Vercel domain to [Allowed Web Origins](https://app.xkit.co/settings) ([docs](https://docs.xkit.co/docs/configure-xkit#website-origin))
-4. Visit the deployed app
+First, [Sign up for Xkit](https://app.xkit.co/sign-up). Make note of your Xkit domain and use it as the `NEXT_PUBLIC_XKIT_DOMAIN` when you deploy.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fxkit-co%2Fxkit-next&env=NEXT_PUBLIC_XKIT_DOMAIN&envDescription=Domain%20associated%20with%20your%20Xkit%20project&demo-url=https%3A%2F%2Fxkit-next.vercel.app)
+
+Once deployed, add your deployed Vercel domain to [Allowed Web Origins](https://app.xkit.co/settings) ([docs](https://docs.xkit.co/docs/configure-xkit#website-origin)) in Xkit.
+
+That's it! You can visit the deployed app to see a sample Xkit catalog in a Next.js app.
 
 ## Manual Setup
 
