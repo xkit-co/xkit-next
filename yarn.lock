@@ -1011,14 +1011,6 @@
     "@babel/helper-plugin-utils" "^7.10.4"
     "@babel/plugin-transform-typescript" "^7.10.4"
 
-"@babel/runtime@7.0.0-beta.42":
-  version "7.0.0-beta.42"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.0.0-beta.42.tgz#352e40c92e0460d3e82f49bd7e79f6cda76f919f"
-  integrity sha512-iOGRzUoONLOtmCvjUsZv3mZzgCT6ljHQY5fr1qG1QIiJQwtM7zbPWGGpa3QWETq+UqwWyJnoi5XZDZRwZDFciQ==
-  dependencies:
-    core-js "^2.5.3"
-    regenerator-runtime "^0.11.1"
-
 "@babel/runtime@7.11.2":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
@@ -1154,13 +1146,21 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@treygriffith/evergreen-ui@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@treygriffith/evergreen-ui/-/evergreen-ui-6.0.0.tgz#800cfea79d2474dc5ef19193cb0eb9cdb7ef102d"
-  integrity sha512-pwEmZlw5kxt35BFqrWfpHVwhtLbQN2tggG7SFszR28TJ0XdhyCPSz4nh60X7T/d/g1ha68FAgDPTxm21FydoNQ==
+"@segment/react-tiny-virtual-list@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@segment/react-tiny-virtual-list/-/react-tiny-virtual-list-2.2.1.tgz#658da8a93cfb83537235c89307818d6f1741aeb3"
+  integrity sha512-G01b9DrsQLF+8yFRyyJeZBZkzbFuqILG9C7SFFS+GtTFbjdprkHt0CL0riCPOZfe1ZXiT8z8MaKoWfNhrfUjhQ==
+  dependencies:
+    prop-types "^15.5.7"
+
+"@treygriffith/evergreen-ui@^6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@treygriffith/evergreen-ui/-/evergreen-ui-6.1.1.tgz#b8545478361f0683661c8227b57b9a8f408abaef"
+  integrity sha512-wPk+NxxgcgJB6HpB61Lt4GD2PDa9/6Y8yDlEBIlKp7LJq4WmdSMonSbBnSVrleEWMySalg8xmlzx9ubvGAmgDQ==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    "@treygriffith/ui-box" "^4.2.0"
+    "@segment/react-tiny-virtual-list" "^2.2.1"
+    "@treygriffith/ui-box" "^5.0.0"
     "@types/react" "^16.9.5"
     "@types/react-transition-group" "^4.4.0"
     arrify "^1.0.1"
@@ -1172,15 +1172,14 @@
     lodash.debounce "^4.0.8"
     prop-types "^15.6.2"
     react-is "^16.13.1"
-    react-scrollbar-size "^2.0.2"
-    react-tiny-virtual-list "^2.1.4"
+    react-scrollbar-size "^3.0.1"
     react-transition-group "^4.4.1"
     tinycolor2 "^1.4.1"
 
-"@treygriffith/ui-box@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@treygriffith/ui-box/-/ui-box-4.2.0.tgz#7c92c50779c79d93910b3996e4949c995279aa92"
-  integrity sha512-g4PXlPRNDueyuQYQLp7tsa1WhLDzmkEDHUwNvxwR7A4ulWAOrqV/2nHBvIpLw+NYOrd17xvaWOru7Okh464BEg==
+"@treygriffith/ui-box@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@treygriffith/ui-box/-/ui-box-5.0.0.tgz#7a1b878f5df8368823dc06430a00d60a75f9fa02"
+  integrity sha512-sqe1xlEnsxD5uDJR/dPMQ7rpMN1vXm7TLI80pxOpQOWBCeJyggzsH8AU576XziOX+5osTuplMHGjsZ9mj8QTFA==
   dependencies:
     "@emotion/hash" "^0.7.1"
     inline-style-prefixer "^5.0.4"
@@ -1361,18 +1360,16 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@xkit-co/xkit-catalog.js@^8.3.1":
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/@xkit-co/xkit-catalog.js/-/xkit-catalog.js-8.3.1.tgz#1e4651aad803f7f87143bbfde4d1b2cf26f93af2"
-  integrity sha512-SMHeD4flRcEB3qVRQwPchMPYwj2uxF4UBybVwt291L/OlnTGnJx/UWZCHOu5egnyYHMZCyO85kMWp5AAcFk8qw==
+"@xkit-co/xkit-catalog-react.js@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@xkit-co/xkit-catalog-react.js/-/xkit-catalog-react.js-1.1.0.tgz#4ec53c485f709a6781cf3b9ab8af14fafc1adfee"
+  integrity sha512-Z6HDOLetOIPvxfp4Vmjc2/iNXdxVvk1PKhFo2MvmNvj51hiSJ25bA8ojlvG6v8TUGKvho9NXUIHYfdwpmMN/hA==
   dependencies:
-    "@treygriffith/evergreen-ui" "^6.0.0"
-    "@treygriffith/ui-box" "^4.2.0"
-    "@xkit-co/xkit.js" "3.2.0"
+    "@treygriffith/evergreen-ui" "^6.1.1"
+    "@treygriffith/ui-box" "^5.0.0"
+    "@xkit-co/xkit.js" "3.12.0"
     glamor "^2.20.40"
     history "^4.10.1"
-    react "~16.9.0"
-    react-dom "~16.9.0"
     react-router-dom "^5.2.0"
     remark-parse "^8.0.2"
     remark-react "^7.0.1"
@@ -1380,13 +1377,23 @@
     tinycolor2 "^1.4.1"
     unified "^9.0.0"
 
-"@xkit-co/xkit.js@3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@xkit-co/xkit.js/-/xkit.js-3.2.0.tgz#516937ff7064c91271462d321ecc5a626c7758c1"
-  integrity sha512-aEb3zCxrJH18DY8FtoOda+VpS5eFRN0QGTj3oqogurOr1P+pL1M17xJrffsFAydtzew1oztUzBogbwKv4ApHhA==
+"@xkit-co/xkit-catalog.js@^8.17.0":
+  version "8.17.0"
+  resolved "https://registry.yarnpkg.com/@xkit-co/xkit-catalog.js/-/xkit-catalog.js-8.17.0.tgz#e62631e61d9693891e21d07602a8fca3aa82b51a"
+  integrity sha512-ty3+tRx/0ym/0FwuoKEeoYBeXvc5rf9tlQ2Apwyg1qtc5yYNrkmywEz4lxePD49tn8K+g1fIWfya3qIBFAkrdA==
+  dependencies:
+    "@xkit-co/xkit-catalog-react.js" "^1.1.0"
+    react "~16.9.0"
+    react-dom "~16.9.0"
+
+"@xkit-co/xkit.js@3.12.0":
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/@xkit-co/xkit.js/-/xkit.js-3.12.0.tgz#e2b0d1eb7cbc56e1959fc69bd739d26bf01eaba4"
+  integrity sha512-MhLr1MeXhHRp7rhN2ztzNSGVt14bjmKeLJUGMjGqr8ifqeL6AAyXOZg/zD0xYhIgyKx9uD90SP0L7pOLO0iVSw==
   dependencies:
     event-target-shim "^5.0.1"
     phoenix "^1.5.3"
+    uuid "^8.3.2"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -1613,14 +1620,6 @@ babel-plugin-transform-react-remove-prop-types@0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.24.tgz#f2edaf9b4c6a5fbe5c1d678bfb531078c1555f3a"
   integrity sha512-eqj0hVcJUR57/Ug2zE1Yswsw4LhuqqHhD+8v120T1cl3kjg76QwtyBrdIk4WVwK+lAhBJVYCd/v+4nc4y+8JsA==
-
-babel-runtime@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
-  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
-  dependencies:
-    core-js "^2.4.0"
-    regenerator-runtime "^0.11.0"
 
 bail@^1.0.0:
   version "1.0.5"
@@ -2171,11 +2170,6 @@ core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
   integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
-
-core-js@^2.4.0, core-js@^2.5.3:
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
-  integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -2759,7 +2753,7 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
-fbjs@^0.8.12, fbjs@^0.8.16:
+fbjs@^0.8.12:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
@@ -4393,7 +4387,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@15.7.2, prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.7.2, prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -4501,16 +4495,6 @@ react-dom@~16.9.0:
     prop-types "^15.6.2"
     scheduler "^0.15.0"
 
-react-event-listener@^0.5.1:
-  version "0.5.10"
-  resolved "https://registry.yarnpkg.com/react-event-listener/-/react-event-listener-0.5.10.tgz#378403c555fe616f312891507a742ecbbe2c90de"
-  integrity sha512-YZklRszh9hq3WP3bdNLjFwJcTCVe7qyTf5+LWNaHfZQaZrptsefDK2B5HHpOsEEaMHvjllUPr0+qIFVTSsurow==
-  dependencies:
-    "@babel/runtime" "7.0.0-beta.42"
-    fbjs "^0.8.16"
-    prop-types "^15.6.0"
-    warning "^3.0.0"
-
 react-is@16.13.1, react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -4550,22 +4534,10 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react-scrollbar-size@^2.0.2:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-scrollbar-size/-/react-scrollbar-size-2.1.0.tgz#105e797135cab92b1f9e16f00071db7f29f80754"
-  integrity sha512-9dDUJvk7S48r0TRKjlKJ9e/LkLLYgc9LdQR6W21I8ZqtSrEsedPOoMji4nU3DHy7fx2l8YMScJS/N7qiloYzXQ==
-  dependencies:
-    babel-runtime "^6.26.0"
-    prop-types "^15.6.0"
-    react-event-listener "^0.5.1"
-    stifle "^1.0.2"
-
-react-tiny-virtual-list@^2.1.4:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-tiny-virtual-list/-/react-tiny-virtual-list-2.2.0.tgz#eafb6fcf764e4ed41150ff9752cdaad8b35edf4a"
-  integrity sha512-MDiy2xyqfvkWrRiQNdHFdm36lfxmcLLKuYnUqcf9xIubML85cmYCgzBJrDsLNZ3uJQ5LEHH9BnxGKKSm8+C0Bw==
-  dependencies:
-    prop-types "^15.5.7"
+react-scrollbar-size@^3.0.1:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-scrollbar-size/-/react-scrollbar-size-3.2.0.tgz#2ab5c6f574cd0051dfcdbae337a64073a949ad6f"
+  integrity sha512-3CiK6Wf+kkZukwQGoVeYA87QsfNunMADK9wZ388VMzbuN7Y67F9b6b/KNf8lSYDNbqRNHzapDaVbC9AaO1vENw==
 
 react-transition-group@^4.4.1:
   version "4.4.1"
@@ -4635,11 +4607,6 @@ regenerate@^1.4.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.1.tgz#cad92ad8e6b591773485fbe05a485caf4f457e6f"
   integrity sha512-j2+C8+NtXQgEKWk49MMP5P/u2GhnahTtVkRIHr5R5lVRlbKvmQ+oS+A5aLKWp2ma5VkT8sh6v+v4hbH0YHR66A==
-
-regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
-  integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
 regenerator-runtime@^0.13.4:
   version "0.13.7"
@@ -5063,11 +5030,6 @@ static-extend@^0.1.1:
   dependencies:
     define-property "^0.2.5"
     object-copy "^0.1.0"
-
-stifle@^1.0.2:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/stifle/-/stifle-1.1.1.tgz#4e4c565f19dcf9a6efa3a7379a70c42179edb8d6"
-  integrity sha512-INvON4DXLAWxpor+f0ZHnYQYXBqDXQRW1znLpf5/C/AWzJ0eQQAThfdqHQ5BDkiyywD67rQGvbE4LC+Aig6K/Q==
 
 stream-browserify@3.0.0:
   version "3.0.0"
@@ -5612,6 +5574,11 @@ util@^0.11.0:
   dependencies:
     inherits "2.0.3"
 
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
 value-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/value-equal/-/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
@@ -5645,13 +5612,6 @@ vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
-
-warning@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
-  integrity sha1-MuU3fLVy3kqwR1O9+IIcAe1gW3w=
-  dependencies:
-    loose-envify "^1.0.0"
 
 watchpack-chokidar2@^2.0.0:
   version "2.0.0"
