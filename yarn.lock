@@ -1360,10 +1360,10 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@xkit-co/xkit-catalog-react.js@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@xkit-co/xkit-catalog-react.js/-/xkit-catalog-react.js-1.1.0.tgz#4ec53c485f709a6781cf3b9ab8af14fafc1adfee"
-  integrity sha512-Z6HDOLetOIPvxfp4Vmjc2/iNXdxVvk1PKhFo2MvmNvj51hiSJ25bA8ojlvG6v8TUGKvho9NXUIHYfdwpmMN/hA==
+"@xkit-co/xkit-catalog-react.js@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@xkit-co/xkit-catalog-react.js/-/xkit-catalog-react.js-1.1.1.tgz#475e9339f784c506116dbebd63517af7f9e975b7"
+  integrity sha512-aSGf+30VNeF41m7UakyL/b0VoJnK5X3VpeLr5EjjpS6z6qtyWqk/Jrz/EXObypzmyFfLMpgUZK+krYfVLOleSw==
   dependencies:
     "@treygriffith/evergreen-ui" "^6.1.1"
     "@treygriffith/ui-box" "^5.0.0"
@@ -1376,15 +1376,6 @@
     string-similarity "^4.0.1"
     tinycolor2 "^1.4.1"
     unified "^9.0.0"
-
-"@xkit-co/xkit-catalog.js@^8.17.0":
-  version "8.17.0"
-  resolved "https://registry.yarnpkg.com/@xkit-co/xkit-catalog.js/-/xkit-catalog.js-8.17.0.tgz#e62631e61d9693891e21d07602a8fca3aa82b51a"
-  integrity sha512-ty3+tRx/0ym/0FwuoKEeoYBeXvc5rf9tlQ2Apwyg1qtc5yYNrkmywEz4lxePD49tn8K+g1fIWfya3qIBFAkrdA==
-  dependencies:
-    "@xkit-co/xkit-catalog-react.js" "^1.1.0"
-    react "~16.9.0"
-    react-dom "~16.9.0"
 
 "@xkit-co/xkit.js@3.12.0":
   version "3.12.0"

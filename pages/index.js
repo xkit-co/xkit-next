@@ -1,12 +1,12 @@
+import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import dynamic from 'next/dynamic'
-import { useEffect } from 'react'
 const XkitCatalog = dynamic(
-  () => import('@xkit-co/xkit-catalog.js').then(mod => mod.App),
+  () => import('@xkit-co/xkit-catalog-react.js').then(mod => mod.App),
   { ssr: false }
 )
-import { createXkit } from '@xkit-co/xkit-catalog.js'
+import { createXkit } from '@xkit-co/xkit-catalog-react.js'
 const xkit = process.browser ? createXkit(process.env.NEXT_PUBLIC_XKIT_DOMAIN) : undefined
 
 export default function Home() {
